@@ -66,7 +66,7 @@ def extract_author_info(config):
     """Extract author information from the config file."""
     author_info = {
         "name": config.get('name', ''),
-        "email": "",
+        "email": "zakaria.sawado@gmail.com",
         "phone": "",
         "website": config.get('url', ''),
         "summary": "",
